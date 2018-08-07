@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>VHS Filter</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>ToroTorii Mini Portfolio</h1>
+<div class="wrapper">
+    <img src="https://i.imgur.com/bcTo1hp.png" class="js-vhs-filter" />
+    <img src="https://i.imgur.com/ReoSucS.png" class="js-vhs-filter" />
+</div>
+
+<svg>
+    <filter id="r"><feColorMatrix
+        type="matrix"
+        values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0 "/>
+    </filter>
+    <filter id="g"><feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0 "/>
+    </filter>
+    <filter id="b"><feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0 "/>
+    </filter>
+</svg>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
