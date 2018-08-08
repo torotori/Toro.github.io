@@ -48,7 +48,7 @@ html {
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 100%;
-  width: 1200px;
+  width: 1400px;
 }
 .wrapper > div {
   margin: 10px;
@@ -61,4 +61,7 @@ h1 {
 
 img {
   max-width: 100%;
+}
+body {
+  font-family: Algerian;
 }
